@@ -5,7 +5,16 @@
  * and return the total
  *
  */
+function total (array) {
+	let numbers = Number(array);	
+	let totalNb;
 
+	for (let i=0; i<array.length-1; i++) {
+		totalNb += numbers[i];
+	}
+
+ 	return totalNb;
+}
 
 //* Begin of tests
 const assert = require('assert')
