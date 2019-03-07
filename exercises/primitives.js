@@ -8,6 +8,10 @@
  */
 
 // Your code :
+const str = '156576';
+const num = 67678;
+const bool = true;
+const undef = undefined;
 
 
 //* Begin of tests
