@@ -5,12 +5,11 @@
  * and return the total
  *
  */
-function total (array) {
-	let numbers = Number(array);	
-	let totalNb;
+function total (array) {	
+	let totalNb=0;
 
-	for (let i=0; i<array.length-1; i++) {
-		totalNb += numbers[i];
+	for (let i=0; i<array.length; i++) {
+		totalNb += array[i];
 	}
 
  	return totalNb;
