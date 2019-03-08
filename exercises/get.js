@@ -14,7 +14,12 @@ const sourceObject = {
   str: 'some text',
   log: console.log,
 }
+function get (a) {
 
+return (sourceObject[a]);
+
+
+}
 // Your code :
 
 //* Begin of tests
